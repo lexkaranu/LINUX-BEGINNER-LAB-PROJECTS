@@ -24,3 +24,4 @@ echo "test" > example.txt
 # Output:
 # bash: example.txt: Permission denied
 
+2.
