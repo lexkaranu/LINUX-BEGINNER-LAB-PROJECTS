@@ -1,0 +1,12 @@
+
+mkdir lab1 && cd lab1
+
+ touch file1.txt file2.txt file3.txt
+
+ ls -l
+
+ chmod 444 file1.txt
+
+ chmod +x file2.txt
+
+ sudo chown yourusername file3.txt
