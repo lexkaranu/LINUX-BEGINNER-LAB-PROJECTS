@@ -1,0 +1,14 @@
+
+SCRIPT WITH NANO:
+use:
+nano portscan.sh
+
+
+#!/bin/bash
+for port in {20..80}
+do
+  nc -zv 127.0.0.1 $port 2>&1 | grep succeeded
+done
+
+Result
+Connection to 127.0.0.1 port 80 [tcp/http] succeeded!
